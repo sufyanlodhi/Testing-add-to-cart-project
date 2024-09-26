@@ -1,0 +1,78 @@
+body {
+ 
+ background-color: rgb(13, 212, 196);
+  }
+  .btn, .btn-total {
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #cb8111, #57ca0a);
+    /* Gradient background */
+    border: none;
+    border-radius: 15px;
+    /* Rounded corners */
+    padding: 5px 10px;
+    /* Padding inside button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Shadow */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effect */
+    text-decoration: none;
+    /* Remove underline from links (if any) */
+  }
+
+  .btn-total {
+   margin-top: 50px;
+ 
+   justify-content: center;
+  }
+  .btn:hover, .btn1:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+    /* Hover effect with gradient change */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    /* Increase shadow on hover */
+    transform: translateY(-2px);
+    /* Slight lift effect on hover */
+  }
+  .child-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  .parent-container {
+    display: flex;
+    flex-direction: rows;
+  }
+  p {
+    color: rgb(54, 4, 231);
+    font-family: Arial, sans-serif;
+    /* Change font family */
+    font-size: 16px;
+    /* Change font size */
+    font-weight: bold;
+    /* Change font weight */
+    font-style: normal;
+    /* Change font style */
+  }
+  .total-books-sec{
+    margin-top: 10px;
+width: 500px;
+height: 500px;
+background-color: #57ca0a;
+
+  }
+  .total{
+    
+display: flex;
+flex-direction: column;
+    align-items: center;
+  }
+  ul li{
+    font-Size: 20px; 
+    color:#df10bc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
